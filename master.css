@@ -1,4 +1,24 @@
 body{
   margin:0;
-  background-color:#E2DCE7 ;
+  background-color:#E9E9EA;
+}
+
+/* GLOBALS*/
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent;
+  /* make scrollbar transparent */
+}
+
+
+
+
+
+/*NavBar*/
+.navbar-brand{
+  font-size: 2.5rem;
+}
+.nav-item{
+  font-size: 1.5rem;
 }
