@@ -16,9 +16,33 @@ body{
 
 
 /*NavBar*/
+
 .navbar-brand{
   font-size: 2.5rem;
 }
 .nav-item{
-  font-size: 1.5rem;
+  font-size: 1.75rem;
+}
+
+/*Packages*/
+.packages{
+  width:60%;
+}
+
+/*FOOTER*/
+footer {
+  background-color: #EACFFF;
+  text-align: center;
+  color: white;
+  max-width: 100%;
+  height: 2rem;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.foot {
+  color:black;
+  padding-top: .25%;
 }
