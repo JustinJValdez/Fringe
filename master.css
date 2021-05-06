@@ -1,6 +1,6 @@
 body{
   margin:0;
-  background-color:#E9E9EA;
+  background-color:#EACFFF;
   letter-spacing: .15rem;
 }
 
@@ -10,6 +10,10 @@ body{
   width: 0px;
   background: transparent;
   /* make scrollbar transparent */
+}
+
+p{
+  font-size: 14.5px;
 }
 
 
@@ -26,26 +30,38 @@ body{
 .nav-item{
   font-size: 1.75rem;
 }
+.nav-pills .nav-link.active { background-color: #EACFFF;}
 
 /*HOME*/
 .home{
   width:70%;
-  background-color: gray;
-  height: auto;
+  background-color: #f8f9fa;
   margin-top:15%;
+  padding: 50px;
 }
+
 .home h1{
   font-size: 5rem;
 }
 /*Packages*/
-.packages{
-  width:60%;
-  margin-top: 20vh;
+.cards{
+  margin: 5% 5% 7% 5%;
 }
+
+.row{
+  display: flex;
+}
+.card-body{
+  background-color: #f8f9fa;
+}
+
+/*.packages{
+  width:60%;
+  margin-top: 15vh;
+}*/
 
 /*FOOTER*/
 footer {
-  background-color: #EACFFF;
   text-align: center;
   color: white;
   max-width: 100%;
