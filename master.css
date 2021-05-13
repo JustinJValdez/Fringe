@@ -29,6 +29,7 @@ h1{
 }
 .navbar-brand{
   font-size: 2rem;
+  display: contents;
 }
 .nav-item{
   font-size: 1.75rem;
@@ -47,8 +48,12 @@ h1{
   font-size: 5rem;
 }
 /*Packages*/
+.cards h1{
+  font-size: 3.25rem;
+}
 .cards{
   margin: 2% 3% 4% 3%;
+  width:auto;
 }
 
 .row{
@@ -66,6 +71,9 @@ h1{
 
 
 /*CONTACT*/
+.contact{
+  margin:auto;
+}
 #input{
   background-color: #f8f9fa;
   border-radius: 5px;
@@ -86,7 +94,7 @@ h1{
   text-align: center;
   height: auto;
   width: 50%;
-  margin: 5% auto;
+  margin: 2% auto;
 }
 /*FOOTER*/
 footer {
@@ -103,4 +111,19 @@ footer {
 .foot {
   color:black;
   padding-top: .25%;
+}
+
+
+
+@media (max-device-width: 812px) {
+  body{
+    font-size: 15px;
+  }
+  h1{
+    font-size: 1.5rem;
+  }
+
+  .forms{
+    margin: 2.5%;
+  }
 }
