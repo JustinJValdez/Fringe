@@ -20,19 +20,12 @@ h1{
 }
 
 
-
-
-
 /*NavBar*/
-.navbar{
-  background-color: #EACFFF;
-}
 .navbar-brand{
-  font-size: 2rem;
-  display: contents;
+  font-size: 2.5rem;
 }
 .nav-item{
-  font-size: 1.75rem;
+  font-size: 1.75rem; 
 }
 .nav-pills .nav-link.active { background-color: #EACFFF;}
 
@@ -41,7 +34,7 @@ h1{
   width:70%;
   background-color: #f8f9fa;
   margin-top:15%;
-  padding: 50px;
+  padding: 1%;
 }
 
 .home h1{
@@ -115,7 +108,8 @@ footer {
 
 
 
-@media (max-device-width: 812px) {
+@media (max-device-width: 900px) {
+  /*Global*/
   body{
     font-size: 15px;
   }
@@ -123,7 +117,35 @@ footer {
     font-size: 1.5rem;
   }
 
+  /*NavBar*/
+  .navbar-brand{
+    font-size: 1.75rem;
+  }
+  /*Index - HOME screen*/
+
+  .home{
+    word-wrap:normal;
+    width: auto;
+    margin: 40% 5% 0;
+  }
+
+  .home h1{
+    font-size: 3.25rem;
+      }
+
+  /*GALLERY*/
+
+  /*PACKAGES*/
+  
+
+
+  /*CONTACT*/
   .forms{
     margin: 2.5%;
   }
+
+
+  /*FOOTER*/
+
+
 }
