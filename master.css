@@ -6,6 +6,7 @@ body{
   margin:0;
   background: linear-gradient(40deg, rgba(206,155,246,1) 50%, rgba(234,207,255,1) 55%);
   background-repeat: no-repeat;
+  background-attachment: fixed;
   letter-spacing: .20rem;
   width: auto;
 }
@@ -53,11 +54,12 @@ h1{
 }
 
 .test{
-  width: 70%;
+  width: 80%;
   margin: 5% auto 0;
 }
 /*Packages*/
 .cards h1{
+  
   font-size: 3.25rem;
 }
 .cards{
@@ -144,12 +146,18 @@ footer {
   .home{
     word-wrap:normal;
     width: auto;
-    margin: 40% 4% 0;
+    margin: 30% 4% 0;
   }
 
   .home h1{
     font-size: 3rem;
       }
+  .carousel-item{
+    word-wrap:normal; 
+  }  
+  .carousel-item h5{
+    font-size: 13px; 
+     } 
 
   /*GALLERY*/
 
