@@ -23,6 +23,7 @@ h1{
 /*NavBar*/
 .navbar-brand{
   font-size: 2.5rem;
+  display: contents;
 }
 .nav-item{
   font-size: 1.75rem; 
@@ -95,7 +96,7 @@ footer {
   color: white;
   max-width: 100%;
   height: 2rem;
-  position: fixed;
+  position:fixed;
   left: 0;
   bottom: 0;
   width: 100%;
