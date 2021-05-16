@@ -9,6 +9,8 @@ body{
   background-attachment: fixed;
   letter-spacing: .20rem;
   width: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 /* GLOBALS*/
@@ -47,6 +49,7 @@ h1{
   background-color: #f8f9fa;
   margin:15% auto 0;
   padding: 1%;
+  
 }
 
 .home h1{
@@ -56,14 +59,18 @@ h1{
 .test{
   width: 80%;
   margin: 5% auto 0;
+  flex-grow: 1;
 }
 /*Packages*/
-.cards h2,h4{
+.cards h2{
+  font-size: 2.2rem;
+}
+.cards h2,.cards h3,.cards h4{
   text-align: center;
 }
 
 .cards{
-  margin: 5% 3% 2% 3%;
+  margin: 4% 3% 2% 3%;
   width:auto;
 }
 
@@ -72,17 +79,27 @@ h1{
 }
 .card-body{
   background-color: #f8f9fa;
-  padding:8px;
+  margin:.5%;
+}
+.discount h3{
+  text-align: center;
 }
 .trouble{
- /* height: 390px;*/
-  padding-bottom: 30px;
+  margin-top:20%;
 }
+.discount{
+  flex-grow: 1;
+}
+
+
+/*ABOUT*/
 
 
 /*CONTACT*/
 .contact{
-  margin:auto;
+  margin:5% auto auto;
+  flex-grow: 1;
+  text-align: center;
 }
 #input{
   background-color: #f8f9fa;
@@ -108,20 +125,15 @@ h1{
 }
 /*FOOTER*/
 footer {
+  flex-shrink: 0;
   text-align: center;
   color: white;
   max-width: 100%;
-  height: 2rem;
-  position:fixed;
-  left: 0;
-  bottom: 0;
   width: 100%;
+  height: 50px;
 }
 
-.foot {
-  color:black;
-  padding-top: .25%;
-}
+
 
 /*MOBILE CSS*/
 
@@ -161,21 +173,31 @@ footer {
   /*GALLERY*/
 
   /*PACKAGES*/
-  .cards h1{
-    font-size: 2.25rem;
+  .cards h2{
+    font-size: 1.75rem;
+  }
+  .cards p{
+    font-size: 13px;
   }
   .cards{
-    margin: 2% 3% 4% 3%;
+    margin: 2% 2% 3% 2%;
     width:auto;
-  }
-  
-  .row{
-    display: flex;
+    height: auto;
   }
   .card-body{
-    background-color: #f8f9fa;
-    padding:8px;
-  }*/
+    margin:.25%;
+  }
+  .trouble{ 
+    margin-top:0;
+  }
+  .discount h3{
+    font-size: 1rem;
+  }
+  .discount{
+    margin-bottom: 50px;
+    padding-bottom:50px;
+  }
+
   
 
 
@@ -184,9 +206,8 @@ footer {
     margin: 2%;
     width: auto;
   }
+  
 
 
   /*FOOTER*/
-
-
 }
