@@ -90,21 +90,20 @@ p{
 
 /*ABOUT*/
 .about{
-  margin:1% auto auto;
+  text-align: center;
+  margin:.5% auto auto;
+  
 }
 .photo{
-
   text-align: center;
 }
 img{
-  width: 35%;
+  width: 40%;
   height: auto;
 }
 .info{
-  width: 100%;
-}
-.info h1, .info h2, .info h3, .info h4, .info h5{
-  text-align: center;
+  width: 80%;
+  margin: auto auto 40px;
 }
 
 
@@ -212,6 +211,10 @@ footer {
   img{
     width: 100%;
     height: auto;
+    margin: 1%;
+  }
+  .info h5{
+    font-size: 1rem;
   }
 
   
