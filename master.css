@@ -24,10 +24,6 @@ body{
 p{
   font-size: 14.5px;
 }
-h1{
-  font-size: 60px;
-}
-
 
 /*NavBar*/
 .navbar-brand{
@@ -93,6 +89,23 @@ h1{
 
 
 /*ABOUT*/
+.about{
+  margin:1% auto auto;
+}
+.photo{
+
+  text-align: center;
+}
+img{
+  width: 35%;
+  height: auto;
+}
+.info{
+  width: 100%;
+}
+.info h1, .info h2, .info h3, .info h4, .info h5{
+  text-align: center;
+}
 
 
 /*CONTACT*/
@@ -143,10 +156,6 @@ footer {
     font-size: 15px;
     word-wrap:normal;
   }
-  h1{
-    font-size: 1.5rem;
-  }
-
   /*NavBar*/
   .navbar-brand{
     font-size: 1.2rem;
@@ -196,6 +205,13 @@ footer {
   .discount{
     margin-bottom: 50px;
     padding-bottom:50px;
+  }
+
+  /*ABOUT*/
+
+  img{
+    width: 100%;
+    height: auto;
   }
 
   
