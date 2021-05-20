@@ -91,19 +91,23 @@ p{
 /*ABOUT*/
 .about{
   text-align: center;
-  margin:.5% auto auto;
+  margin:4%;
+  display: flex;
+  justify-content:space-between;
+  flex-grow: 1;
   
 }
 .photo{
   text-align: center;
+  
 }
 img{
-  width: 40%;
+  width: 60%;
   height: auto;
 }
 .info{
-  width: 80%;
-  margin: auto auto 40px;
+  width: 100%;
+  margin-top: 100px;
 }
 
 
