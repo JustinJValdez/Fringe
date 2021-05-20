@@ -91,7 +91,7 @@ p{
 /*ABOUT*/
 .about{
   text-align: center;
-  margin:4%;
+  margin:3% auto auto;
   display: flex;
   justify-content:space-between;
   flex-grow: 1;
@@ -99,15 +99,17 @@ p{
 }
 .photo{
   text-align: center;
+  width: 50%;
+  margin-left: 2%;
   
 }
 img{
-  width: 60%;
+  width: 100%;
   height: auto;
 }
 .info{
-  width: 100%;
-  margin-top: 100px;
+  width: 50%;
+  margin: 2% 3% auto;
 }
 
 
