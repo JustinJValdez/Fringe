@@ -43,7 +43,7 @@ p{
 .home{
   width:70%;
   background-color: #f8f9fa;
-  margin:15% auto 0;
+  margin:10% auto 0;
   padding: 1%;
   
 }
@@ -53,7 +53,7 @@ p{
 }
 
 .test{
-  width: 80%;
+  width: 70%;
   margin: 5% auto 0;
   flex-grow: 1;
 }
@@ -213,14 +213,20 @@ footer {
   }
 
   /*ABOUT*/
-
-  img{
-    width: 100%;
-    height: auto;
-    margin: 1%;
+  .about{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .photo{
+    width:95%;
+    height:auto;
+  }
+  .info{
+    width: 95%;
   }
   .info h5{
-    font-size: 1rem;
+    font-size: .80rem;
   }
 
   

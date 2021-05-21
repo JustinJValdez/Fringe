@@ -39,11 +39,34 @@
           <a class="nav-link" href="news.html">News</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
+          <a class="nav-link" href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal"
+          >Contact</a> <!--href="contact.html"-->
         </li>
       </ul>
     </div>
   </nav>
+
+  <div class="modal fade" id="contactModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="staticBackdropLabel">Ask Away</h2>
+        </div>
+        <div class="modal-body">
+          <form name="contact" method="POST" data-netlify="true">
+            <label><h2>Name:</h2>  <input type="text" name="name" id="input"></label>
+            <label><h2>Email: </h2> <input type="text" name="email" id="input"></label>
+            <br>
+            <label> <h2>Message:</h2> <textarea class="textArea" name="message" rows="10"></textarea></label> 
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
      <div class="home container-fluid text-center">
