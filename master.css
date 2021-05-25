@@ -114,19 +114,29 @@ img{
 
 /*NEWS*/
 .news{
-  margin: 2%;
   display: flex;
   flex-direction: column;
   flex-grow: 1;
+  margin: 1% auto auto;
 }
 .workshop{
-  width: 60%;
-  background-color: gray;
+  width: 100%;
+  text-align: center;
+  background-color: #674185;
+  color:#f8f9fa;
+  padding: 10px;;
 }
 
 .updates{
-  width: 60%;
- 
+  width: 80%; 
+  height: auto;
+  padding-top: 50px;
+}
+.updates h1{
+  text-align: center;
+}
+.wanted{
+  font-size: 1.20rem;
 }
 
 
@@ -246,7 +256,13 @@ footer {
     font-size: .80rem;
   }
 
-  
+  /*NEWS*/
+  .updates{
+    width: 100%; 
+  }
+  .wanted{
+    font-size: 1rem;
+  }
 
 
   /*CONTACT*/
