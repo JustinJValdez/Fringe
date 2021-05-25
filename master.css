@@ -24,6 +24,10 @@ body{
 p{
   font-size: 14.5px;
 }
+img{
+  width: 100%;
+  height: auto;
+}
 
 /*NavBar*/
 .navbar-brand{
@@ -57,7 +61,18 @@ p{
   margin: 5% auto 0;
   flex-grow: 1;
 }
-/*Packages*/
+/*GALLERY*/
+.gallery{
+  margin: auto 5%;
+}
+.pictures{
+  height:auto;
+  width: 20%;
+  margin: 1%;
+}
+
+
+/*PACKAGES*/
 .cards h2{
   font-size: 2.2rem;
 }
@@ -103,10 +118,7 @@ p{
   margin-left: 3%;
   
 }
-img{
-  width: 100%;
-  height: auto;
-}
+
 .info{
   width: 50%;
   margin: 2% 3% auto;
@@ -124,7 +136,7 @@ img{
   text-align: center;
   background-color: #674185;
   color:#f8f9fa;
-  padding: 10px;;
+  padding: 10px;
 }
 
 .updates{
@@ -167,6 +179,13 @@ img{
   height: auto;
   width: 50%;
   margin: 2% auto;
+}
+
+.modal-content{
+  background-color: #674185;
+  color:#f8f9fa;
+  text-align: center;
+
 }
 /*FOOTER*/
 footer {
