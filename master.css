@@ -63,11 +63,13 @@ img{
 }
 /*GALLERY*/
 .gallery{
-  margin: auto 5%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
 }
+
 .pictures{
-  height:auto;
-  width: 20%;
   margin: 1%;
 }
 
@@ -149,6 +151,9 @@ img{
 }
 .wanted{
   font-size: 1.20rem;
+}
+.featured{
+  width: 60%;
 }
 
 
