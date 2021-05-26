@@ -47,7 +47,7 @@ img{
 .home{
   width:70%;
   background-color: #f8f9fa;
-  margin:10% auto 0;
+  margin:10% auto auto;
   padding: 1%;
   
 }
@@ -86,10 +86,6 @@ img{
   margin: 4% 3% 2% 3%;
   width:auto;
 }
-
-.row{
-  display: flex;
-}
 .card-body{
   background-color: #f8f9fa;
   margin:.5%;
@@ -97,9 +93,7 @@ img{
 .discount h3{
   text-align: center;
 }
-.trouble{
-  margin-top:20%;
-}
+
 .discount{
   flex-grow: 1;
 }
@@ -239,15 +233,13 @@ footer {
 
   /*PACKAGES*/
   .cards h2{
-    font-size: 1.75rem;
+    font-size: 2rem;
   }
   .cards p{
     font-size: 13px;
   }
   .cards{
-    margin: 2% 2% 3% 2%;
-    width:auto;
-    height: auto;
+    margin: 2% auto auto ;
   }
   .card-body{
     margin:.25%;
@@ -298,7 +290,54 @@ footer {
     width: auto;
   }
   
+}
+@media (max-device-width:1400px){
+  /*NAV*/
+  .navbar-brand{
+    font-size: 2rem;
+  }
+
+  /*HOME*/
+  .home{
+    margin-top: 5%;
+  }
+  .home h1{
+    font-size: 4rem;
+  }
+
+  /*GALLERY*/
+
+  /*PACKAGES*/
+  .cards h2{
+    font-size: 1.35rem;
+  }
+  .cards{
+    margin: .75% auto 2%;
+  }
+  .card-body{
+    margin:0;
+  }
+  .card-text{
+    font-size: 13px;
+  }
+
+  /*ABOUT*/
+.about{
+  margin:1.5% auto auto;
+}
+.photo{
+  text-align: center;
+  width: 35%;
+}
+
+.info{
+  width: 55%;
+  margin: 1% 2% auto;
+}
+.info h1{
+  font-size: 1.5rem;
+}
 
 
-  /*FOOTER*/
+
 }
