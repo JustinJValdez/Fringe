@@ -197,7 +197,62 @@ footer {
 }
 
 
+/*LAPTOP CSS*/
+@media (max-device-width:1400px){
+  /*NAV*/
+  .navbar-brand{
+    font-size: 2rem;
+  }
 
+  /*HOME*/
+  .home{
+    margin-top: 5%;
+  }
+  .home h1{
+    font-size: 4rem;
+  }
+
+  /*GALLERY*/
+
+  /*PACKAGES*/
+  .cards{
+    margin: .75% auto 2%;
+  }
+  .card{width: 90%;}
+  .card-body{
+    width: 100%;
+  }
+  .card-text{
+    font-size: 13px;
+  }
+
+  /*ABOUT*/
+.about{
+  margin:1.5% auto auto;
+}
+.photo{
+  text-align: center;
+  width: 30%;
+}
+
+.info{
+  width: 60%;
+  margin: .5% 1% auto;
+}
+.info h1{
+  font-size: 1.5rem;
+}
+
+.info h2{
+  font-size: 1.5rem;
+}
+.info h5{
+  font-size: 1.05rem;
+}
+
+
+
+}
 /*MOBILE CSS*/
 
 @media (max-device-width: 900px) {
@@ -290,60 +345,4 @@ footer {
     width: auto;
   }
   
-}
-@media (max-device-width:1400px){
-  /*NAV*/
-  .navbar-brand{
-    font-size: 2rem;
-    display: contents;
-  }
-
-  /*HOME*/
-  .home{
-    margin-top: 5%;
-  }
-  .home h1{
-    font-size: 4rem;
-  }
-
-  /*GALLERY*/
-
-  /*PACKAGES*/
-  .cards{
-    margin: .75% auto 2%;
-  }
-  .card{width: 90%;}
-  .card-body{
-    width: 100%;
-  }
-  .card-text{
-    font-size: 14px;
-  }
-
-  /*ABOUT*/
-.about{
-  margin:1.5% auto auto;
-}
-.photo{
-  text-align: center;
-  width: 30%;
-}
-
-.info{
-  width: 60%;
-  margin: .5% 1% auto;
-}
-.info h1{
-  font-size: 1.5rem;
-}
-
-.info h2{
-  font-size: 1.5rem;
-}
-.info h5{
-  font-size: 1.05rem;
-}
-
-
-
 }
