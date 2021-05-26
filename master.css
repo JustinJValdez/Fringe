@@ -46,16 +46,17 @@ img{
 /*HOME*/
 .home{
   width:70%;
-  background-color: #f8f9fa;
+  background-color: #674185;
   margin:10% auto auto;
   padding: 1%;
-  
 }
-
 .home h1{
   font-size: 5rem;
+  font-weight:600 ;
 }
-
+.home strong{
+  color:#f8f9fa;
+}
 .test{
   width: 70%;
   margin: 5% auto 0;
@@ -75,20 +76,18 @@ img{
 
 
 /*PACKAGES*/
-.cards h2{
-  font-size: 2.2rem;
-}
-.cards h2,.cards h3,.cards h4{
-  text-align: center;
-}
-
 .cards{
   margin: 4% 3% 2% 3%;
   width:auto;
+  text-align: center;
+}
+.card{
+  margin: .5%;
+  width: 50%;
+  background-color: #f8f9fa;
 }
 .card-body{
-  background-color: #f8f9fa;
-  margin:.5%;
+  width: 100%;
 }
 .discount h3{
   text-align: center;
@@ -125,7 +124,7 @@ img{
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  margin: 1% auto auto;
+  margin: .5% auto auto;
 }
 .workshop{
   width: 100%;
@@ -148,6 +147,7 @@ img{
 }
 .featured{
   width: 50%;
+  margin: 1%;
 }
 
 
@@ -184,8 +184,8 @@ img{
   background-color: #674185;
   color:#f8f9fa;
   text-align: center;
-
 }
+
 /*FOOTER*/
 footer {
   flex-shrink: 0;
@@ -295,6 +295,7 @@ footer {
   /*NAV*/
   .navbar-brand{
     font-size: 2rem;
+    display: contents;
   }
 
   /*HOME*/
@@ -308,17 +309,15 @@ footer {
   /*GALLERY*/
 
   /*PACKAGES*/
-  .cards h2{
-    font-size: 1.35rem;
-  }
   .cards{
     margin: .75% auto 2%;
   }
+  .card{width: 90%;}
   .card-body{
-    margin:0;
+    width: 100%;
   }
   .card-text{
-    font-size: 13px;
+    font-size: 14px;
   }
 
   /*ABOUT*/
