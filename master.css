@@ -110,14 +110,14 @@ img{
 }
 .photo{
   text-align: center;
-  width: 39%;
+  width: 33%;
   margin-left: 3%;
   
 }
 
 .info{
-  width: 50%;
-  margin: 2% 3% auto;
+  width: 60%;
+  margin: 2% 2% auto;
 }
 
 /*NEWS*/
@@ -327,15 +327,22 @@ footer {
 }
 .photo{
   text-align: center;
-  width: 35%;
+  width: 30%;
 }
 
 .info{
-  width: 55%;
-  margin: 1% 2% auto;
+  width: 60%;
+  margin: .5% 1% auto;
 }
 .info h1{
   font-size: 1.5rem;
+}
+
+.info h2{
+  font-size: 1.5rem;
+}
+.info h5{
+  font-size: 1.05rem;
 }
 
 
