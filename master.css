@@ -32,7 +32,6 @@ img{
 /*NavBar*/
 .navbar-brand{
   font-size: 2.5rem;
-  display: contents;
 }
 .nav-item{
   font-size: 1.75rem; 
@@ -216,14 +215,16 @@ footer {
 
   /*PACKAGES*/
   .cards{
-    margin: .75% auto 2%;
+    margin: .75% auto auto;
   }
-  .card{width: 90%;}
+  .card{
+    width: 80%;
+  }
   .card-body{
     width: 100%;
   }
   .card-text{
-    font-size: 13px;
+    font-size: 15px;
   }
 
   /*ABOUT*/
@@ -249,9 +250,6 @@ footer {
 .info h5{
   font-size: 1.05rem;
 }
-
-
-
 }
 /*MOBILE CSS*/
 
@@ -263,8 +261,8 @@ footer {
   }
   /*NavBar*/
   .navbar-brand{
-    font-size: 1.2rem;
-    line-height: 3rem;
+    font-size: 1.1rem;
+    line-height: 3.25rem;
   }
   /*Index - HOME screen*/
 
@@ -281,7 +279,7 @@ footer {
     word-wrap:normal; 
   }  
   .carousel-item h5{
-    font-size: 13px; 
+    font-size: 14px; 
      } 
 
   /*GALLERY*/
@@ -294,20 +292,13 @@ footer {
     font-size: 13px;
   }
   .cards{
-    margin: 2% auto auto ;
-  }
-  .card-body{
-    margin:.25%;
-  }
-  .trouble{ 
-    margin-top:0;
-  }
-  .discount h3{
-    font-size: 1rem;
+    margin: 2% auto auto;
   }
   .discount{
-    margin-bottom: 50px;
-    padding-bottom:50px;
+    margin-top: 3%;
+  }
+  .discount h3{
+    font-size: 1.20rem;
   }
 
   /*ABOUT*/
