@@ -50,17 +50,21 @@ img{
   padding: 1%;
 }
 .home h1{
-  font-size: 5rem;
+  font-size: 6rem;
   font-weight:600 ;
 }
 .home strong{
+  font-size: 8rem;
   color:#f8f9fa;
 }
+/*  TESTIMONAILS ARE HIDDEN TILL USUABLE PER CLIENT REQUEST
 .test{
   width: 70%;
   margin: 5% auto 0;
   flex-grow: 1;
 }
+*/
+
 /*GALLERY*/
 .gallery{
   margin: auto;
@@ -170,24 +174,21 @@ img{
 
 
 /*CONTACT*/
-.contact{
-  margin:5% auto auto;
-  flex-grow: 1;
-  text-align: center;
-}
 #input{
   background-color: #f8f9fa;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
+  outline: none;
   width: 20rem;
   height: 2rem;
 }
 .textArea{
   background-color: #f8f9fa;
-  border-radius: 5px;
+  border-radius: 10px;
   border: none;
   width:20rem;
   box-sizing: border-box;
+  outline: none;
 }
 
 .forms{
@@ -202,7 +203,9 @@ img{
   background-color: #674185;
   color:#f8f9fa;
   text-align: center;
+  box-shadow: 10px 10px 25px #EACFFF;
 }
+
 
 /*FOOTER*/
 footer {
@@ -229,8 +232,9 @@ footer {
   .home h1{
     font-size: 4rem;
   }
-
-  /*GALLERY*/
+  .home strong{
+    font-size: 6rem;
+  }
 
   /*PACKAGES*/
   .cards{
@@ -268,6 +272,11 @@ footer {
 }
 .info h5{
   font-size: 1.05rem;
+}
+/*NEWS*/
+/*CONTACT*/
+.modal-content h2{
+  font-size: 1.70rem;
 }
 }
 /*MOBILE CSS*/
