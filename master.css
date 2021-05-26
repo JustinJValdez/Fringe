@@ -219,7 +219,7 @@ footer {
 
 
 /*LAPTOP CSS*/
-@media (max-device-width:1400px){
+@media (max-width:1400px){
   /*NAV*/
   .navbar-brand{
     font-size: 2rem;
@@ -281,7 +281,7 @@ footer {
 }
 /*MOBILE CSS*/
 
-@media (max-device-width: 900px) {
+@media (max-width: 900px) {
   /*Global*/
   body{
     font-size: 15px;
