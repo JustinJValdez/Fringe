@@ -41,7 +41,9 @@ img{
 .nav-item{
   font-size: 1.75rem; 
 }
-.nav-pills .nav-link.active { background-color: #EACFFF;}
+.nav-pills .nav-link.active {     background-color: #EACFFF;
+margin-top: 2%;
+}
 
 .nav-item a:hover{
   background-color:gray;
