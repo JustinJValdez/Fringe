@@ -11,7 +11,7 @@ body{
   background: linear-gradient(40deg, rgba(206,155,246,1) 50%, rgba(234,207,255,1) 55%);
   background-repeat: no-repeat;
   background-attachment: fixed;
-  letter-spacing: .20rem;
+  letter-spacing: .15rem;
   width: auto;
   display: flex;
   flex-direction: column;
@@ -112,6 +112,9 @@ img{
   margin: .5%;
   width: 50%;
   background-color: #f8f9fa;
+}
+.card-text{
+  font-size: 1.25rem;
 }
 .card-body{
   width: 100%;
@@ -255,7 +258,7 @@ footer {
     width: 100%;
   }
   .card-text{
-    font-size: 15px;
+    font-size: 1.10rem;
   }
 
   /*ABOUT*/
@@ -324,11 +327,14 @@ footer {
   .cards h2{
     font-size: 2rem;
   }
-  .cards p{
-    font-size: 13px;
-  }
   .cards{
     margin: 2% auto auto;
+  }
+  .card-text{
+    font-size: .85rem;
+  }
+  .card-body h2{
+    font-size: 1rem;
   }
   .discount{
     margin-top: 3%;
