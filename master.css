@@ -259,6 +259,9 @@ footer {
   .card-body{
     width: 100%;
   }
+  .card-body h2{
+    font-weight: 900;
+  }
   .card-text{
     font-size: 1.10rem;
   }
