@@ -165,11 +165,18 @@ margin-top: 2%;
   color:#f8f9fa;
   padding: 10px;
 }
+.work-demo{
+  width: auto;
+  text-align: center;
+  margin: 2%;
+}
+.work-demo li{
+  font-size: 1.2rem ;
+}
 
 .updates{
   width: 80%; 
   height: auto;
-  padding-top: 50px;
 }
 .updates h1{
   text-align: center;
@@ -366,6 +373,9 @@ footer {
   }
 
   /*NEWS*/
+  .work-demo li{
+    font-size: 1rem ;
+  }
   .updates{
     width: 100%; 
   }
