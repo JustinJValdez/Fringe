@@ -340,11 +340,11 @@ footer {
   .home{
     word-wrap:normal;
     width: auto;
-    margin: 10% 2% 0;
+    margin: 10% auto 0;
   }
 
   .home h1{
-    font-size: 3rem;
+    font-size: 2.8rem;
       }
   .carousel-item{
     word-wrap:normal; 
