@@ -58,6 +58,7 @@ margin-top: 2%;
   -o-background-size: cover;
   background-size: cover;
   flex-grow: 1;
+  margin-bottom: 1%;
 }
 
 
@@ -118,7 +119,7 @@ margin-top: 2%;
 
 /*PACKAGES*/
 .cards{
-  margin: 4% 3% 2% 3%;
+  margin: 2.5% 3% auto 3%;
   width:auto;
   text-align: center;
 }
@@ -134,12 +135,13 @@ margin-top: 2%;
   width: 100%;
 }
 .pack-detail{
-  margin: 1.5%;
+  margin: 1%;
   width: auto;
   text-align: center;
 }
 .pack-detail li{
   font-size: 1.2rem ;
+  list-style-type:none;
 }
 .discount h2{
   text-align: center;
