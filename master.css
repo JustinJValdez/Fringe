@@ -50,9 +50,21 @@ margin-top: 2%;
 }
 
 /*HOME*/
+
+.img{
+  background:url(/img/studio1.JPG) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+
 .home{
   width:70%;
   background-color: #674185;
+  opacity: 0.9;
   margin:10% auto auto;
   padding: 1%;
 }
