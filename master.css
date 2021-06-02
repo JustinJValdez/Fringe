@@ -121,7 +121,15 @@ margin-top: 2%;
 .card-body{
   width: 100%;
 }
-.discount h3{
+.pack-detail{
+  margin: 1.5%;
+  width: auto;
+  text-align: center;
+}
+.pack-detail li{
+  font-size: 1.2rem ;
+}
+.discount h2{
   text-align: center;
 }
 
@@ -347,6 +355,12 @@ footer {
   }
   .card-body h2{
     font-size: 1rem;
+  }
+  .pack-detail{
+    width: 95%;
+  }
+  .pack-detail li{
+    font-size: .9rem ;
   }
   .discount{
     margin-top: 3%;
