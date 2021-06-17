@@ -180,11 +180,10 @@ margin-top: 2%;
   margin: .5% auto 1%;
 }
 .workshop{
-  width: 100%;
+  width: 80%;
   text-align: center;
   background-color: #674185;
   color:#f8f9fa;
-  padding: 10px;
 }
 .work-demo{
   width: auto;
@@ -402,7 +401,10 @@ footer {
     font-size: .80rem;
   }
 
-  /*NEWS*/
+  /*EVENTS*/
+  .workshop{
+    width: 100%;
+  }
   .work-demo li{
     font-size: 1rem ;
   }
