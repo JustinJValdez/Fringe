@@ -42,7 +42,8 @@ img{
   font-size: 1.75rem; 
 }
 .nav-pills .nav-link.active {     background-color: #EACFFF;
-margin-top: 2%;
+margin-top: 1%;
+margin-bottom: 2%;
 }
 
 .nav-item a:hover{
@@ -266,6 +267,7 @@ footer {
   /*NAV*/
   .navbar-brand{
     font-size: 2rem;
+    line-height: 3.25rem;
   }
 
   /*HOME*/
