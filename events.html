@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>💇Fringe Cosmetology Consulting</title>
+
+  <!--Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <!--CSS-->
+  <link rel="stylesheet" href="master.css">
+  
+
+</head>
+<body>
+
+  <!--NavBar-->
+  <nav class="navbar navbar-expand-xl navbar-light bg-light" >
+    <div class="container-fluid">
+
+      <a class="navbar-brand" href="index.html"><strong> FRINGE Cosmetology Consulting</strong> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse  justify-content-end" id="navbarNav">
+        <ul class="navbar-nav nav nav-pills"> 
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>     
+          <li class="nav-item">
+            <a class="nav-link" href="packages.html">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="events.html">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Gallery</a> 
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactModal" data-bs-toggle="modal" data-bs-target="#contactModal"
+              >Contact</a> <!--href="contact.html"-->
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+  <!--CONTACT MODAL-->
+  <div class="modal fade" id="contactModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header justify-content-center">
+          <h2 class="modal-title" id="staticBackdropLabel">What can I help you improve?</h2>
+        </div>
+        <div class="modal-body">
+          <form name="contact" method="POST" data-netlify="true">
+            <label><h5>Name:</h5>  <input type="text" name="name" id="input"></label>
+            <label><h5>Email: </h5> <input type="text" name="email" id="input"></label>
+            <br>
+            <label> <h5>Message:</h5> <textarea class="textArea" name="message" rows="10"></textarea></label> 
+            <br>
+            <button type="submit" class="btn btn-secondary">Send Message</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--MODAL FOR REGISTRATION-->
+  <div class="modal fade" id="registerModal">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header justify-content-center">
+          <h2 class="modal-title " id="staticBackdropLabel">Register Now!</h2>
+        </div>
+        <div class="modal-body">
+          <form name="contact" method="POST" data-netlify="true">
+            <label><h5>Name:</h5>  <input type="text" name="name" id="input"></label>
+            <label><h5>Email: </h5> <input type="text" name="email" id="input"></label>
+            <br>
+            <label> <h5>Workshop:</h5> <textarea class="textArea" name="message" rows="1"></textarea></label> 
+            <br>
+            <button type="submit" class="btn btn-secondary">Send Message</button>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid news">
+
+    <!--
+    <div class="container-fluid workshop">
+      <H1> WORKSHOP</H1>
+      <h2>Monday July 5th <br> 10:00 a.m. - 2:00 p.m.</h2>
+      <h2>Balayage techniques with featured artist Ceason Raulino!</h2>
+      <img src="/img/ceason.jpg" alt="featured artist photo" class="featured">
+      <h3>$175</h3>
+      <h3 class="register"> Space is limited! <a href="#registerModal" data-bs-toggle="modal" data-bs-target="#registerModal">Register Now</a> 
+      </h3>
+    </div>
+    -->
+    <div class="container-fluid work-demo">
+      <h1>Monthly workshops/demos</h1>
+      <ul>
+        <li>
+          Featuring local artists
+        </li>
+        
+        <li>
+          Manniquin,products and supplies provided
+        </li>
+        <li>
+          You leave with your manniquin!!!
+        </li>
+        <li>
+          Certificate of completion
+        </li>
+        <li>
+          Meal and Refreshments provided
+        </li>
+        <li>
+          $85.00+/ Demo Fee and $175.00+/ Workshop Fee
+        </li>
+      </ul>
+
+    </div>
+
+    <div class="container-fluid updates">
+     <h1>LOCAL ARTISTS WANTED!</h1> 
+     <p class="wanted">
+      I'm so excited to be hosting regular Workshops!! We have SO many talented artists in the Central Valley. I'm creating a platform for those cosmetologists, manicurists and estheticians that are interested in sharing their specialties with our already established and our up and coming artists.  Let's face it, we are ALWAY'S learning new "trick's" everyday in our WONDERFUL industry!
+      </p>
+      <p class="wanted">If you feel that you can make a difference in someones future, please email me your contact information at <strong>fringeFCC@gmail.com</strong>. I will send you detailed info including the artist compensation. 
+      </p>
+      <p class="wanted">I CAN'T WAIT TO HEAR FROM YOU ALL!!!</p>
+      <p class="wanted">**Please attach photos of your work that you plan to present. </p>
+    </div>
+
+
+  </div>
+  
+
+  
+
+  <footer class="foot">   
+      copyright:  <a href="https://justinjvaldez.github.io/" target="_blank">Justin Valdez</a> &copy; 2021 
+  </footer>
+
+  <!--JQUERY-->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <!--BOOTSTRAP-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+</body>
+</html>
