@@ -417,6 +417,9 @@ footer {
   .workshop{
     width: 100%;
   }
+  .workshop h2{
+    font-size: 1rem;
+  }
   .work-demo li{
     font-size: 1rem ;
   }
